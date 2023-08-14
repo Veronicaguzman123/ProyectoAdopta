@@ -17,5 +17,27 @@ body{
     margin-left: 15%;
 }
 
-.text_menu{
+
+main{
+    margin-top: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+
+.redes{
+    display: grid;
+    
+}
+
+
+article{
+    width: 400px;
+    height: 200px;
 }
