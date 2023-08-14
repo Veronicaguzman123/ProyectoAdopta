@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 10px 0;
+    border-bottom: black solid 1px;
+}
+
+nav ul.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul.menu li:last-child {
+    margin-right: 0;
+}
+
+nav ul.menu li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul.menu li a:hover {
+    color: #f39c12;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;   
+}
+
+.card button {
+    text-transform: uppercase;    
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.card button:hover {
+    color: #f39c12;
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+footer {
+    border-top: black solid 1px;
+}
+
+footer p{
+    color:black;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+}
