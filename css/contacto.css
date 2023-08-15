@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: aquamarine;
+    background-color: #0D2542;
 }
 /**/
 .barra_menu{
@@ -33,11 +33,15 @@ h1{
 
 .redes{
     display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
     
 }
 
 
 article{
-    width: 400px;
-    height: 200px;
+    width: 300px;
+    height: 100px;
+    margin: 50px;
 }
