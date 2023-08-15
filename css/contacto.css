@@ -6,7 +6,7 @@
 body{
     background-color: #0D2542;
 }
-/**/
+/****************** menu ************************/
 .barra_menu{
     margin-top: 45px;
     width: 100%;
@@ -17,7 +17,12 @@ body{
     margin-left: 15%;
 }
 
+.enlace :hover{
+    background-color: black;
+    color: aliceblue;
+}
 
+/***************** main **********************/
 main{
     margin-top: 25px;
     margin-left: 15%;
@@ -27,7 +32,7 @@ main{
 
 h1{
     text-align: center;
-    color: black;
+    color:aliceblue;
 }
 
 
@@ -41,7 +46,30 @@ h1{
 
 
 article{
-    width: 300px;
+    width: 350px;
     height: 100px;
     margin: 50px;
+}
+
+footer{
+    text-align: center;
+    color: aliceblue;
+}
+
+article a{
+    font-size: 3rem;
+    color: aliceblue;
+}
+
+.facebook :hover{
+    color: 3C5A99;
+}
+
+.twitter :hover{
+    color: #1B9FF1;
+}
+
+.instagram :hover{
+    background: radial-gradient();
+    color: #FCC55E;
 }
