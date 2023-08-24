@@ -4,10 +4,10 @@
 }
 
 body{
-    background-color: #0D2542;
+    /* background-color: #0D2542; */
 }
 /****************** menu ************************/
-.barra_menu{
+/* .barra_menu{
     margin-top: 45px;
     width: 100%;
 }
@@ -20,7 +20,7 @@ body{
 .enlace :hover{
     background-color: black;
     color: aliceblue;
-}
+} */
 
 /***************** main **********************/
 main{
@@ -32,7 +32,7 @@ main{
 
 h1{
     text-align: center;
-    color:aliceblue;
+    color:#545658;
 }
 
 
@@ -51,18 +51,18 @@ article{
     margin: 50px;
 }
 
-footer{
+/* footer{
     text-align: center;
     color: aliceblue;
-}
+} */
 
 article a{
     font-size: 3rem;
-    color: aliceblue;
+    color: #545658 ;
 }
 
 .facebook :hover{
-    color: 3C5A99;
+    color: #2c25f5;
 }
 
 .twitter :hover{
@@ -72,4 +72,8 @@ article a{
 .instagram :hover{
     background: radial-gradient();
     color: #FCC55E;
+}
+
+.telegram :hover{
+    color: #1B9FF1;
 }
